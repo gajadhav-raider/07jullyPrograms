@@ -1,0 +1,10 @@
+const chalk= require("chalk");
+//console.log(chalk.red("Gaurav"));
+// console.log(chalk.green.bold.inverse("True"));
+const validator= require("validator");
+// console.log(validator.isEmail("gajadhav839@crrn.com"));
+// console.log(validator.isEmail("gajadhav839@crrn.m"));
+// const res=validator.isEmail("gajadhav839@crrn.com");
+//    console.log(res? chalk.green.inverse(res):chalk.red.inverse(res));
+const res=validator.isEmail("gajadhav839@crrn.m");
+   console.log(res? chalk.green.inverse(res):chalk.red.inverse(res));
